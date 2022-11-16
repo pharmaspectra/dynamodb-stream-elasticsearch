@@ -1,4 +1,4 @@
-import { ClientOptions } from "@elastic/elasticsearch";
+import { ClientOptions } from "@opensearch-project/opensearch";
 import { RecordList, Record, AttributeMap } from "aws-sdk/clients/dynamodbstreams";
 
 export function pushStream(opts: streamOptions): Promise<void>

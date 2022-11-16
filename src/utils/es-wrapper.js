@@ -1,4 +1,4 @@
-const { Client } = require('@elastic/elasticsearch')
+const { Client } = require('@opensearch-project/opensearch')
 const { createAWSConnection, awsGetCredentials } = require('./aws-es-connection')
 
 module.exports = async (node, testMode, options) => {

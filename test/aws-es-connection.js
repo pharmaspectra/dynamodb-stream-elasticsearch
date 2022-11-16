@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 const { createAWSConnection, awsGetCredentials } = require('../src/utils/aws-es-connection')
 const AWS = require('aws-sdk')
-const { Client } = require('@elastic/elasticsearch')
+const { Client } = require('@opensearch-project/opensearch')
 const chai = require('chai')
 const { assert, expect } = chai
 const spies = require('chai-spies')

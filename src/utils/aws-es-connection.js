@@ -1,7 +1,7 @@
 const { config } = require('aws-sdk/global')
 const { request } = require('http')
 const { sign } = require('aws4')
-const { Connection, Transport } = require('@elastic/elasticsearch')
+const { Connection, Transport } = require('@opensearch-project/opensearch')
 
 function generateAWSConnectionClass (credentials) {
   return class AWSConnection extends Connection {
